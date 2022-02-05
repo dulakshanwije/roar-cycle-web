@@ -10,4 +10,5 @@ $recipient = "dulakshanwije@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Email sent!";
+header("location:contact-us.html");
 ?>
